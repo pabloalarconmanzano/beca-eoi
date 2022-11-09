@@ -5,13 +5,12 @@
     <meta charset="utf8">
 
     <style>        
-        #tiempo {
+        #hora {
         display : flex;
         flex-direction: row;
         flex-wrap : wrap;
         justify-content:end;
-        }
-    </style>
+    }</style>
 
 </head>
 <body>
@@ -47,13 +46,24 @@
 
 
         <section id="elemento1" class="letraRoja" alt="Elemento principal">
-            <article id="cita1"> <p><i>"Todo el mundo trata de realizar algo grande, sin darse cuenta de que la vida se compone de cosas pequelas.<br/> Frank A. Clark"</i></p> </article>
+            <article id="cita1"> <p><i>"Todo el mundo trata de realizar algo grande, 
+                sin darse cuenta de que la vida se compone de cosas pequelas.<br/>
+                Frank A. Clark"</i></p> </article>
 
-            <article id="cita2"> <p><i>"La vida es como una bicileta. Para mantener el equilibrio tienes que seguir adelante.<br/> Albert Einstein"</i></p></article>
+            <article id="cita2"> <p><i>"La vida es como una bicileta. Para mantener el equilibrio
+                tienes que seguir adelante.<br/> Albert Einstein"</i></p></article>
          </section>
     </main>
     <aside>
         <a href="image/icon.png" download>Descargar Imagen</a><br>
+        <figure>
+            <img src="image/frank_clark.jpg" width=150px alt="Imagen no encontrada"><br/>
+            <figcaption><a href="#cita1" title="Enlace cita de Frank A. Clark" target="_blank">Frank A. Clark</a><br/></figcaption>
+        </figure>
+        <figure>
+            <img src="image/Albert_Einstein2.jpg" width=150px alt="Imagen no encontrada">
+            <figcaption><a href="#cita2" title="Enlace  cita deAlbert Einstein"> Albert Einstein</a><br/></figcaption>
+        </figure>
     </aside>
 
     <footer alt="Curso HTML5 EOI - 2019"><b>
@@ -64,8 +74,8 @@
             <a href="mailto:pepe@correo.es"><i>Enviar correo a pepe</i></a><br>
             <a href="tel:666 00 11 22"><i>Llamar a pepe</i></a><br>
          </address>
-        <div id="tiempo">
-            <time>0/11/2022 - 17:04:30 </time>
+        <div id="hora">
+            <time>08/11/2022 - 20:00:00 </time>
         </div>
     </b></footer>
 
