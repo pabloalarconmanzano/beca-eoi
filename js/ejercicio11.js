@@ -9,5 +9,7 @@ var funciones = {
     }
 }
 
+
+
 funciones.colorRojo = funciones.colorVerde;
 funciones.colorRojo();
