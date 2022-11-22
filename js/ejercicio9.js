@@ -10,8 +10,8 @@ function mult (a, b){
 
 
 function operaciones(){
-    let n1 = Number(document.getElementById('numero1').innerHTML);
-    let n2 = Number(document.getElementById('numero2').innerHTML);
+    let n1 = prompt("Introduzca un número: ");
+    let n2 = prompt("Introduzca otro número")
     let sum = suma(n1, n2);
     let multi = mult(n1, n2);
     let resultado=suma(sum, multi);
